@@ -63,13 +63,18 @@ nav ul li a{
 }
 .content{
     margin-top: 20px;
-    max-width: 100%;
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
+    gap: 20%;
+}
+.border-1{
+    padding-right: 50px;
+    margin: 50px;
 }
 .content h1{
-    font-size: 50px;
+    font-size: 30px;
     color: white;
 
 }
@@ -83,6 +88,8 @@ nav ul li a{
     margin: 10px 0 30px;
     color: white;
     width: 400px;
+    font-size: 12px;
+    line-height: 20px;
 }
 .sp-1{
     background: linear-gradient(to left, #8176af, #b6b7d3);
@@ -97,44 +104,47 @@ nav ul li a{
 .img{
     width: 300px;
     box-shadow: 30px black;
+    padding-left: 50px;
 }
 .box{
     width: 100%;
-    margin-top: 20px;
+    margin-top: 40px;
     display: flex;
     flex-direction: row;
-    background-image: linear-gradient(90deg, #0e0827, #0e0827);
+    justify-content: center;
+    align-items: left;
+    background-color: rgba(33, 30, 46, 1);
     border-radius: 50px;
-    padding: 30px 30px;
+    padding: 45px;
     padding-top: 30px;
 }
 .border{
     display: flex;
     flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
+    justify-content: left;
+    align-items: left;
     
    
 }
 .box-1 img{
     width: 40px;
+    margin-left: 40px;
     position: absolute;
 }
 .box-1 h1{
     color: white;
-    font-size: 20px;
-    margin-left: 50px;
+    font-size: 15px;
     padding-top: 3px;
+    padding-left: 90px;
 }
 .box-1 p{
     font-size: 10px;
-    margin-left: 50px;
+    padding-left: 90px;
     color: white;
 
 }
 .box-1{
-    margin-right: 80px;
+    margin-right: 50px;
 }
 
 .box-3{
@@ -143,7 +153,7 @@ nav ul li a{
     flex-direction: row-reverse;
     padding-top: 30px;
     gap: 20%;
-    padding-bottom: 50px;
+    padding-bottom: 90px;
     
 }
 .img-4{
@@ -183,7 +193,7 @@ nav ul li a{
     display: flex;
     flex-direction: row;
     gap: 22%;
-    padding-top: 20px;
+    padding-top: 50px;
     padding-bottom: 40px;
     position: relative;
 
@@ -195,19 +205,22 @@ nav ul li a{
     color: white;
     padding-top: 20px;
     font-weight: 100;
+    font-size: 12px;
 }
 .comp{
     position: absolute;
-    top: 65px;
-    left: 150px;
+    top: 100px;
+    left: 185px;
 }
 .paragraph{
     color: white;
+    font-size: 12px;
 }
 .p-1{
     width: 50%;
     color: white;
     margin-left: -60px;
+    font-size: 12px;
 }
 .container-2{
     display: flex;
@@ -218,23 +231,27 @@ nav ul li a{
 }
 .why .comp-2{
     position: absolute;
-    top: 45px;
-    left: 150px;
+    top: 49px;
+    left: 190px;
 
+}
+.why h3{
+    font-size: 25px;
+    font-weight: lighter;
 }
 .main-container{
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    gap: 70px;
+    gap: 45px;
     margin-top: 30px;
 }
 .card-container{
     width: 200px;
     height: 300px;
     background-image: linear-gradient(to right, #433D60, #211E2E);
-    border-radius: 10px;
+    border-radius: 25px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -259,14 +276,17 @@ nav ul li a{
     margin-top: -10px;
 }
 .lower-container p{
-    font-size: 12px;
+    font-size: 8px;
+    text-align: left;
     color: white;
-    padding-bottom: 20px;
+    padding-bottom: 30px;
+    padding-right: 8px;
+    padding-left: 8px;
 }
 .lower-container h3{
     color: white;
     font-size: 16PX;
-    padding-bottom: 10px;
+    padding-bottom: 20px;
 }
 .image-1{
     display: flex;
@@ -429,6 +449,8 @@ span{
 .wrapper .boxxx textarea{
     width: 98%;
     height: 20vh;
+    resize: none;
+    margin-left: 13px;
     padding-left: 30px;
     padding-right: 30px;
     font-size: 20px;
@@ -438,6 +460,9 @@ span{
     outline: none;
     color: white;
     font-family: 'Times New Roman', Times, serif;
+}
+::placeholder{
+    color: white;
 }
 .btn-4{
     display: flex;
